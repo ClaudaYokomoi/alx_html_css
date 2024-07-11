@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(182, 69, 69, 0.562);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: rgba(165, 42, 42, 0.685);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    border: solid rgb(255, 0, 98);
+    padding: 8px;
+    text-align: left;
+}
+
+tbody tr {
+    border: solid rgb(255, 0, 99);
+}
+
+article p {
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
