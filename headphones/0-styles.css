@@ -1,0 +1,111 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --primary-color: #c271ff;
+    --secondary-color: #071629;
+    --text-color: #ffffff;
+    --button-background: #c271ff;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f8f8f8;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-image: url("images/header_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FF6565;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 100px; /* Adjust as needed */
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--button-background);
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 20px 0;
+    text-align: center;
+}
